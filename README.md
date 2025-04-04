@@ -1,50 +1,91 @@
-# IMAGENE
-AI Comic Crafter: Transforming Text into Visual Storytelling
-## About the Project:
-IMAGENE, the ComicCrafter AI, is a generative AI based comic generator running locally on edge devices that generates a comic style story based on user-provided prompt. It utilized Hugging Face’s transformer and Stable Diffusion XL. . 
-## Features:
-- **Fully AI-Generated Stories:** Users provide a prompt, and the AI autonomously creates a complete comic storyline.
-* **AI-Generated Illustrations:** Stable Diffusion XL generates comic panels that match the AI-created story.
-+ **Panel Selection Interactivity:** While the AI generates the full comic, users can select and refine specific panels for better alignment with their vision.
+# IMAGENE - AI Comic Crafter
+**Transforming Text into Visual Storytelling**
 
-## Built with:
-### Libraries-
-torch,
-matplotlib,
-numpy,
-cv2 (OpenCV),
-transformers,
-diffusers,
-PIL (Pillow),
-gradio,
-llama-cpp-python,
-accelerate,
-safetensors,
-torchvision
-### Packages-
-llama-cpp-python,
-torch,
-diffusers,
-transformers,
-accelerate,
-safetensors,
-matplotlib,
-Pillow,
-gradio,
-torchvision,
-numpy,
-opencv-python
-### Platform-
-google.colab.drive
-## Steps to run the project:
-1. Prompt to Script
-LLaMA 2 extends brief prompts into coherent storylines with stable characters and natural dialogue, optimized with Transformers, Accelerate, and BitsandBytes.
+![Project Banner](https://github.com/user-attachments/assets/43d8804f-cead-438e-93d5-2b43dba4d9ba)
 
-2. Script to Scenes
-A BERT summarizer and T5 detect pivotal scenes and pull narration/dialogues, automatically structuring them into comic panels.
+## 🌟 About the Project
+IMAGENE, the ComicCrafter AI, is a generative AI-based comic generator designed to run locally on edge devices. It seamlessly transforms user-provided prompts into captivating comic-style stories using cutting-edge technologies like Hugging Face’s Transformer and Stable Diffusion XL. It utilizes LLaMA and Stable Diffusion to generate comic panels with text bubbles from user prompts, using cloud-based processing to deliver AI-powered visual storytelling from textual input.
 
-3. Scenes to Art
-Stable Diffusion XL and ControlNet produce comic-style artwork; DreamBooth, GFPGAN, and OpenCV enhance character consistency, backgrounds, and lighting.
+## ✨ Features
+- **AI-Generated Stories:** Users input a prompt, and the AI autonomously crafts a complete comic storyline.
+- **Dynamic Illustrations:** Stable Diffusion XL generates vibrant comic panels aligned with the story.
+- **Interactive Panel Selection:** Users can choose and fine-tune specific panels to ensure the visual narrative matches their vision.
 
-4. Assembly & Layout
-Text and imagery are blended together into comic strips through live preview with Gradio and narrative-visual consistency being provided by CLIP.
+## 🛠️ Built With
+### Libraries
+- torch
+- matplotlib
+- numpy
+- cv2 (OpenCV)
+- transformers
+- diffusers
+- PIL (Pillow)
+- gradio
+- llama-cpp-python
+- accelerate
+- safetensors
+- torchvision
+
+### Packages
+- llama-cpp-python
+- torch
+- diffusers
+- transformers
+- accelerate
+- safetensors
+- matplotlib
+- Pillow
+- gradio
+- torchvision
+- numpy
+- opencv-python
+
+### Platform
+- Google Colab Drive
+
+## 🚀 Getting Started
+### Steps to Run the Project
+1. **Download the repository** and open it in Google Colab.
+
+2. **Select a template** from the drop-down menu.
+
+   ![Template Selection](https://github.com/user-attachments/assets/b5b7c251-9a97-46b4-97a6-f9a4b4e8dedf)
+
+3. **Enter the prompt** for which the story is to be generated in the Story Prompt field.
+
+   ![Story Prompt](https://github.com/user-attachments/assets/7f55fd1d-225e-49c4-b50a-8f38b240c89d)
+
+4. **Choose the number of panels** to be generated.
+
+   ![Number of Panels](https://github.com/user-attachments/assets/e4b9bef4-7dc9-4049-b765-4427732993d3)
+
+5. **Select the art style** for the comic images.
+
+   ![Art Style](https://github.com/user-attachments/assets/345398e3-f9cb-4e79-a08e-3e5f2c2603e3)
+
+6. **Click 'Generate Comic'** to bring your story to life!
+
+## 🌈 Example Output
+**User Input:** "Write a story about Spiderman fighting thieves."
+
+**AI-Generated Story Sample:**
+![Story Panel 1](https://github.com/user-attachments/assets/7079c66c-2598-4f80-9c2c-b3f12835388d)
+![Story Panel 2](https://github.com/user-attachments/assets/bd3112bd-5d22-449a-905d-adc467850764)
+![Story Panel 3](https://github.com/user-attachments/assets/fef11de3-31da-488b-94d1-ca2de11f4a73)
+
+## 💪 Challenges & Learnings
+- **Fine-Tuning Issues:** Adjusting model parameters for improved coherence.
+- **Model Integration:** Ensuring seamless communication between LLaMA 2 and Stable Diffusion XL.
+- **Style Consistency:** Maintaining uniform character design across panels.
+
+## 🚧 Future Improvements
+- **User-Defined Art Styles:** Allowing users to choose from different artistic styles.
+- **Enhanced Image Consistency:** Refining techniques for uniformity in character design.
+- **Optimized Model Performance:** Further improving fine-tuning strategies for higher accuracy.
+
+## 📝 Conclusion
+ComicCrafter AI showcases the potential of AI-driven storytelling, transforming text prompts into structured, visually cohesive comics. This project demonstrates the power of deep learning and generative AI in creative content generation.
+
+## 🙏 Acknowledgments
+Special thanks to our mentor, Prof. Meghavi Rana, and all contributors for their invaluable support and guidance throughout this project.
+
