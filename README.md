@@ -86,6 +86,15 @@ IMAGENE, the ComicCrafter AI, is a generative AI-based comic generator designed 
 ## 📝 Conclusion
 ComicCrafter AI showcases the potential of AI-driven storytelling, transforming text prompts into structured, visually cohesive comics. This project demonstrates the power of deep learning and generative AI in creative content generation.
 
-## 🙏 Acknowledgments
-Special thanks to our mentor, Prof. Meghavi Rana, and all contributors for their invaluable support and guidance throughout this project.
+## 🙏 Author
+Aman Chhimwal\
+Shashwat Bhardwaj\
+Sana Bansal\
+Vaibhavi Sengar\
+Akshat Sharma\
+Anshika Madan\
+Shaurya Bhaskar
+
+### Mentor
+Prof. Meghavi Rana
 
