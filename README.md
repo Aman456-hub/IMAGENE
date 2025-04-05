@@ -96,6 +96,14 @@ https://drive.google.com/file/d/1I84d9uqjwNqQm1ENey6A33HMMIu2wyYC/view?usp=drive
 ## 📝 Conclusion
 IMAGENE showcases the potential of AI-driven storytelling, transforming text prompts into structured, visually cohesive comics. This project demonstrates the power of deep learning and generative AI in creative content generation.
 
+## 📌 Important Links
+**PPT:** \
+https://bit.ly/3R43yRW \
+**Report:** \
+https://bit.ly/4jnbEkI \
+**Video Explaination:** \
+https://bit.ly/3XMVJDR
+
 ## 🙏 Author
 Aman Chhimwal\
 Shashwat Bhardwaj\
