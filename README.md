@@ -47,23 +47,33 @@ IMAGENE, the ComicCrafter AI, is a generative AI-based comic generator designed 
 ### Steps to Run the Project
 1. **Download the repository** and open it in Google Colab.
 
-2. **Select a template** from the drop-down menu.
+2. **Make a copy** of the three fine tuned Llama models, from the link provided below, in your google drive.\
+**fine_tuned_tiny_stories_model**\
+https://drive.google.com/drive/folders/1gE-VXTw-joTB9F25CYHkShDzXvYHUXZ4?usp=drive_link \
+**llama-2-7b.Q3_K_S.gguf**\
+https://drive.google.com/file/d/1KI6DCFuQDJvlNnIvO7jyq9ru8hndoDGm/view?usp=drive_link \
+**Copy of InkoloRA.safetensors**\
+https://drive.google.com/file/d/1I84d9uqjwNqQm1ENey6A33HMMIu2wyYC/view?usp=drive_link
+
+3. **Run the .py or .ipynb file** in your collab, provided in the repository.
+
+4. **Select a template** from the drop-down menu.
 
    ![Template Selection](https://github.com/user-attachments/assets/b5b7c251-9a97-46b4-97a6-f9a4b4e8dedf)
 
-3. **Enter the prompt** for which the story is to be generated in the Story Prompt field.
+5. **Enter the prompt** for which the story is to be generated in the Story Prompt field.
 
    ![Story Prompt](https://github.com/user-attachments/assets/7f55fd1d-225e-49c4-b50a-8f38b240c89d)
 
-4. **Choose the number of panels** to be generated.
+6. **Choose the number of panels** to be generated.
 
    ![Number of Panels](https://github.com/user-attachments/assets/e4b9bef4-7dc9-4049-b765-4427732993d3)
 
-5. **Select the art style** for the comic images.
+7. **Select the art style** for the comic images.
 
    ![Art Style](https://github.com/user-attachments/assets/345398e3-f9cb-4e79-a08e-3e5f2c2603e3)
 
-6. **Click 'Generate Comic'** to bring your story to life!
+8. **Click 'Generate Comic'** to bring your story to life!
 
 ## 🌈 Example Output
 **User Input:** "Write a story about Spiderman fighting thieves."
