@@ -94,7 +94,7 @@ https://drive.google.com/file/d/1I84d9uqjwNqQm1ENey6A33HMMIu2wyYC/view?usp=drive
 - **Optimized Model Performance:** Further improving fine-tuning strategies for higher accuracy.
 
 ## 📝 Conclusion
-ComicCrafter AI showcases the potential of AI-driven storytelling, transforming text prompts into structured, visually cohesive comics. This project demonstrates the power of deep learning and generative AI in creative content generation.
+IMAGENE showcases the potential of AI-driven storytelling, transforming text prompts into structured, visually cohesive comics. This project demonstrates the power of deep learning and generative AI in creative content generation.
 
 ## 🙏 Author
 Aman Chhimwal\
